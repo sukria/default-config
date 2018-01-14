@@ -7,6 +7,10 @@ if [ "$UID" != "0" ]; then
     exit 126
 fi
 
+echo "Updating packages"
+apt-get update
+apt-get install  $(cat custom-packages.list) 
+
 echo "Showing upcoming changes..."
 rsync --dry-run -av target/* /
 
