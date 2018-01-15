@@ -1,6 +1,7 @@
 command-not-found
-backup-manager
 vim
 sudo
 screen
 tree
+backup-manager
+libnet-amazon-s3-perl
