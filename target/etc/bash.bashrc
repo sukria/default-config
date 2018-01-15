@@ -133,7 +133,7 @@ alias rmforce='/bin/rm  --recursive --force --verbose '
 
 # ls aliases
 alias ls='ls -Fh --color=always' # add colors and file type extensions
-alias l="ls"
+alias l="ls -l"
 alias la='ls -Alh' # show hidden files
 # Alias's for multiple directory listing commands
 alias lx='ls -lXBh' # sort by extension
