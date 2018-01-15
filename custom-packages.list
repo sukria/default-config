@@ -5,3 +5,4 @@ screen
 tree
 backup-manager
 libnet-amazon-s3-perl
+docker-ce
